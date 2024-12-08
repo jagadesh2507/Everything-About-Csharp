@@ -1,0 +1,43 @@
+csharp
+using System;
+
+class ControlStructures
+{
+    static void Main()
+    {
+        // IF-ELSE
+        int age = 20;
+        if (age >= 18)
+        {
+            Console.WriteLine("You are an adult.");
+        }
+        else
+        {
+            Console.WriteLine("You are not an adult.");
+        }
+
+        // SWITCH
+        int day = 3;
+        switch (day)
+        {
+            case 1:
+                Console.WriteLine("Monday");
+                break;
+            case 2:
+                Console.WriteLine("Tuesday");
+                break;
+            case 3:
+                Console.WriteLine("Wednesday");
+                break;
+            default:
+                Console.WriteLine("Other day");
+                break;
+        }
+
+        // FOR LOOP
+        for (int i = 0; i < 5; i++)
+        {
+            Console.WriteLine($"Iteration {i}");
+        }
+    }
+}
